@@ -757,6 +757,62 @@
             .AboutUs-text-M{
                 width: inherit;
             }
+            /* **************** GLOBAL-PHONE **********************/
+            @media only screen and (max-width: 1000px) {
+                
+                .background-section{
+                    display: none;
+                }
+                
+                
+                
+                .AboutUs-section {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column-reverse;
+                    align-items: center;
+                }
+                .AboutUs-text {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .AboutUs-IMG {
+                    width: 100%;
+                    background-image: url(./images/BY\ THE\ NUMBERS.png);
+                    background-size: cover;
+                    height: 300px;
+                }
+                .AboutUs-text-M {
+                    width: 90%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .AboutUs-section-p1 {
+                    margin: 0px;
+                    font-size: 30px;
+                    font-family: 'Bebas Neue', cursive;
+                    color: #1A4990;
+                    margin-bottom: 5px;
+                }
+                .AboutUs-section-p2 {
+                    margin: 0;
+                    color: #333;
+                    font-size: 15px;
+                    margin-bottom: 20px;
+                }
+                .AboutUs-TEXT-LIEN {
+                    height: 3px;
+                    width: 90%;
+                    background-color: #1A4990;
+                    
+                }
+                
+
+
+
+            }
 
 
             /* **************** VM **********************/
@@ -812,6 +868,7 @@
                 color: #1A4990;
                 font-size: 40px;
                 font-family: 'Bebas Neue', cursive;
+                margin: 0;
                 
                 
             }
@@ -826,6 +883,37 @@
                 margin: 15px;
                 font-size: 18px;
                 color: white;
+            }
+            /* **************** GLOBAL-PHONE **********************/
+            @media only screen and (max-width: 1000px) {
+                .VM-section {
+                    margin-top: 70px;
+                    margin-bottom: 70px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                .VM-div {
+                    height: 320px;
+                    width: 45%;
+                    margin: 0;
+                }
+                .VM-div-text p{
+                    font-size: 25px;
+                    
+                    
+                }
+                .VM-div-TEXT-DIV p {
+                    margin: 5px;
+                    font-size: 14px;
+                    color: white;
+                }
+                .VM-div-IMG {
+                    height: 60%;
+                }
+                
+
+
+
             }
 
             /* **************** GLOBAL-section **********************/
@@ -923,6 +1011,79 @@
                 margin: 0;
 
             }
+            /* **************** GLOBAL-PHONE **********************/
+            @media only screen and (max-width: 1000px) {
+
+                .GLOBAL-section {
+                    width: 100%;
+                    height: 90vh;
+                    margin-bottom: 70px;
+                }
+                .GLOBAL-text-M {
+                    height: 5%;
+                }
+                .GLOBAL-text-M P {
+                    font-size: 30px;
+                }
+                .GLOBAL-IMG-DIV {
+                    width: 100%;
+                    height: 95%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .GLOBAL-IMG-G-DIV {
+                    height: 50%;
+                    width: 100%;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                }
+                .GLOBAL-TEXT-MM-DIV {
+                    width: 100%;
+                    height: 50%;
+                }
+                .GLOBAL-TEXT-G-DIV {
+                    height: 100%;
+                    width: 100%;
+                }
+                .GLOBAL-TEXT-M-DIV {
+                    width: 100%;
+                    height: 10%;
+                    background-color: #1A4990;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .GLOBAL-TEXT-S-DIV {
+                    width: 100%;
+                    display: flex;
+                    height: 90%;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-content: space-around;
+                }
+                .GLOBAL-TEXT-COUNTRIES-DIV {
+                    width: 100px;
+                    height: 35px;
+                }
+                .GLOBAL-IMG-G-DIV img {
+                    width: 100%;
+                }
+
+
+    
+    
+    
+                }
+
+
+
+
+
+
+
             
                         /* ****************IN WORK **********************/
                         .IN-WORK-section {
@@ -1146,6 +1307,40 @@
             .D-LL{border-right-width: 0;}
             
             .D-RR{border-left-width: 0;}
+
+            /* **************** Gallery-phone**********************/
+            @media only screen and (max-width: 1000px) {
+
+            .history-DIV-M {
+                height: 80px;
+                width: 100%;
+                display: flex;
+            }
+            .history-N {
+                font-size: 20px;
+            }
+            .history-T {
+                font-size: 12px;
+            }
+            .history-DIV-STORY p {
+                font-size: 10px;
+            }
+            .history-section {
+                margin-bottom: 20px;
+                margin-top: 30px;
+            }
+        
+        
+        
+        
+        
+        
+            }
+                            
+                
+                
+                
+            
             
 
             /* **************** Gallery-section**********************/
@@ -1191,8 +1386,28 @@
             }
 
             .GIMG:hover {transform: scale(1.1);}
+            
+            /* **************** Gallery-phone**********************/
+            @media only screen and (max-width: 1000px) {
+
+            .Gallery-text {
+                font-size: 30px;
+            }
+            .Gallery-div img {
+                transition: all 0.2s;
+                width: 100%;
+            }
+            .Gallery-section {
+                width: 100%;
+                height: 30vh;
+                margin: 0;
+
+            }
 
 
+
+
+            }
 
 
 
