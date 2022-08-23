@@ -1153,6 +1153,307 @@
             
             .D-RR{border-left-width: 0;}
 
+
+            /* **************** CAR **********************/
+ 
+            .CAR-SECTION {
+                width: 100%;
+                height: 300px;
+                display: flex;
+                position: relative;
+                margin-top: 120px;
+                margin-bottom: 20px;
+            }
+            .CAR-A-DIV {
+                width: 100%;
+                height: 70%;
+                position: absolute;
+                bottom: -20px;
+                background-color: #1A4990;
+
+            }
+            .CAR-R-DIV {
+                width: 55%;
+                height: 100%;
+                z-index: 1;
+                position: relative;
+            }
+            .CAR-L-DIV {
+                width: 45%;
+                height: 100%;
+                z-index: 1;
+            }
+            .CAR-M-IMG-DIV {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                top: 0;
+                display: flex;
+                justify-content: flex-end;
+                opacity: 0%;
+                transition: all 0.5s;
+                z-index: -1;
+            }
+            .DIV-CAR-1{
+                opacity: 100%;
+                z-index: 10;
+            }
+            .car-text-img-div {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                margin-left: 15px;
+                margin-right: 15px;
+                width: 200px;
+            }
+            .car-img-div {
+                height: 85%;
+                width: fit-content;
+            }
+            .car-text-div {
+                height: 15%;
+            }
+            .car-img-div-img {
+                height: 100%;
+                transition: all 0.2s;
+                box-shadow: 0px 0px 10px #0f0f0f;
+            }
+            .car-text-div-p {
+                margin-top: 15px;
+                font-family: 'Bebas Neue', cursive;
+                font-size: 18px;
+                margin: 0;
+                color: white;
+            }
+            .CAR-M-TEXT-P{
+                font-family: 'Bebas Neue', cursive;
+                font-size: 40px;
+                margin-bottom: 20px;
+                color: #1A4990;
+            }
+            .CAR-M-DIV-BUTTON{
+                width: 30px;
+                height: 30px;
+                border-radius: 120px;
+                background-color: #ffffff;
+                border-style: solid;
+                border-width: 1px;
+                border-color: #444;
+                margin-left: 5px;
+                margin-right: 5px;
+                
+
+            }
+            .CAR-big-BUTTON-div{
+                display: flex;
+            }
+
+            
+            .CAR-M-DIV-BUTTONXX{
+                margin-left: 0;
+                background-color: #1A4990;
+                border-style: none;
+            }
+            .img-S-CAR{
+                height: auto;
+                width: 100%;
+            }
+
+
+
+            .img-zoome:hover {transform: scale(1.05);}
+
+
+             /* **************** CAR phone **********************/ 
+
+             @media only screen and (max-width: 1000px) {
+
+                .CAR-SECTION {
+                    width: 100%;
+                    height: 400px;
+                    display: flex;
+                    position: relative;
+                    margin-top: 50px;
+                    margin-bottom: 63px;
+                    flex-direction: column-reverse;
+                }
+                .CAR-A-DIV {
+                    width: 100%;
+                    height: 50%;
+                    position: absolute;
+                    bottom: -20px;
+                    background-color: #1A4990;
+                }
+                .CAR-R-DIV {
+                    width: 100%;
+                    height: 100%;
+                    z-index: 1;
+                    position: relative;
+                }
+                .CAR-L-DIV {
+                    width: 100%;
+                    height: auto; 
+                    z-index: 1;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom: 30px;
+                }
+                .CAR-M-IMG-DIV {
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    display: flex;
+                    justify-content: center;
+                    opacity: 0%;
+                    transition: all 0.5s;
+                    z-index: -1;
+                }
+                .car-text-img-div {
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                     width: auto; 
+                }
+                .CAR-M-TEXT-P {
+                    font-family: 'Bebas Neue', cursive;
+                    font-size: 30px;
+                    margin: 0;
+                    color: #1A4990;
+                }
+                .CAR-big-BUTTON-div {
+                    display: flex;
+                }
+                .DIV-CAR-1 {
+                    opacity: 100%;
+                    z-index: 10;
+                }
+
+                
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             
+            
+            
+            /* ****************v**********************/
+
+                             .backgrund {
+                                position: fixed;
+                                height: 100vh;
+                                width: 100%;
+                                top: 0px;
+                                right: 0px;
+                                place-content: center;
+                                align-items: center;
+                                transition: opacity .3s;
+                                opacity: 0%;
+                                z-index: -1;
+                                display: flex;
+                            
+                            
+                            }
+                            
+                            .backgrund-black{
+                                background-color: black;
+                                opacity: 80%;
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                
+                                
+                            }
+                             .backgrundIMG{
+                                height: 90%;
+                                overflow: hidden;
+                                z-index: 9999;
+                                background-size: contain;
+                                background-repeat: no-repeat no-repeat;
+                                background-position: center center;
+                                position: relative;
+                                display: flex;
+                                justify-content: flex-end;
+                            
+                            }
+                            
+                            .imgXX{
+                                width: -webkit-fill-available;
+                        
+                            }
+                            
+                            .closex{
+                                height: 30px;
+                                width: 30px;
+                                background-color: rgb(214, 214, 214);
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                position: absolute;
+                            }
+                            
+                            .closex p {
+                                font-size: 30px;
+                                margin: 0;
+                                color: rgb(0, 0, 0);
+                            }
+                            
+                            .closex:hover{
+                                cursor: pointer;
+                            }
+
+                            /* ****************v phone**********************/
+
+
+                            @media only screen and (max-width: 1000px) {
+                                .backgrundIMG {
+                                    height: auto; 
+       
+                                   }
+                                
+                            }
+                            /* ****************v**********************/
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             /* **************** Gallery-phone**********************/
             @media only screen and (max-width: 1000px) {
 
